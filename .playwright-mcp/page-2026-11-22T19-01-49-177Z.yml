@@ -1,0 +1,21 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "MathTutor" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Calculadora matemática con SymPy
+    - button "Cambiar tema" [ref=e8]
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - button "Scroll to end"
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - combobox [ref=e14]:
+        - generic [ref=e15]: Simplificar
+        - img [aria-hidden]: ▼
+      - textbox [aria-hidden] [ref=e16]: simplify
+    - generic [ref=e17]:
+      - group [ref=e18]:
+        - group [ref=e19]: Expresión matemática
+        - group [ref=e20]:
+          - button "Mostrar teclado matemático" [ref=e21]
+      - button "Resolver" [disabled]

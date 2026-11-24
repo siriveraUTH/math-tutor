@@ -1,0 +1,13 @@
+[   33433ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/keypress-standard.wav:1
+[   64747ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/keypress-standard.wav:1
+[   92009ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/keypress-standard.wav:1
+[  219472ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/keypress-standard.wav:1
+[  537097ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/keypress-standard.wav:1
+[  652407ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/keypress-standard.wav:1
+[ 1037042ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/keypress-standard.wav:1
+[ 1062274ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/plonk.wav:1
+[ 1064286ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/keypress-standard.wav:1
+[ 1101551ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/keypress-standard.wav:1
+[ 1198196ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/keypress-standard.wav:1
+[ 1209032ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/keypress-delete.wav:1
+[ 1508403ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3001/_next/static/chunks/sounds/keypress-standard.wav:1

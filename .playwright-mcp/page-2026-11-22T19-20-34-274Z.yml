@@ -1,0 +1,92 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e3]:
+    - banner [ref=f7e4]:
+      - generic [ref=f7e5]:
+        - heading "MathTutor" [level=1] [ref=f7e6]
+        - paragraph [ref=f7e7]: Calculadora matemática con SymPy
+      - button "Cambiar tema" [ref=f7e8]
+    - main [ref=f7e9]:
+      - generic [ref=f7e10]:
+        - region "Messages" [ref=f7e32]:
+          - log [ref=f7e33]:
+            - generic [ref=f7e34]:
+              - heading "¿Qué quieres resolver?" [level=2] [ref=f7e35]
+              - paragraph [ref=f7e36]: Escribe una expresión, elige la operación y revisa el resultado.
+        - button "Scroll to end"
+    - generic [ref=f7e12]:
+      - generic [ref=f7e13]:
+        - combobox [ref=f7e14]:
+          - generic [ref=f7e15]: Integral definida
+          - img [aria-hidden]: ▼
+        - textbox [aria-hidden] [ref=f7e16]: definite_integral
+      - generic [ref=f7e17]:
+        - group [ref=f7e18]:
+          - group [ref=f7e19]: Expresión matemática
+          - generic "Expresión matemática" [active] [ref=f7e38]:
+            - generic [ref=f7e39]:
+              - 'textbox "Expresión matemática: <mark name=\"ge457\"/>"'
+              - generic [ref=f7e40]:
+                - generic [ref=f7e120]:
+                  - generic [ref=f7e122]:
+                    - text: ∫
+                    - generic [ref=f7e126]:
+                      - generic [ref=f7e127]: ▢
+                      - generic [ref=f7e129]: ▢
+                  - generic [ref=f7e134]:
+                    - text: ∫
+                    - generic [ref=f7e138]:
+                      - generic [ref=f7e139]: ▢
+                      - generic [ref=f7e140]: ▢
+                  - generic [ref=f7e145]:
+                    - text: ∫
+                    - generic [ref=f7e149]:
+                      - generic [ref=f7e150]: ▢
+                      - generic [ref=f7e151]: ▢
+                  - text: ▢d▢d▢d▢
+                - generic: Alternar teclado virtual Menu
+              - status [ref=f7e158]: "selected: placeholder"
+          - group [ref=f7e20]:
+            - button "Ocultar teclado matemático" [pressed] [ref=f7e43]
+        - button "Resolver" [disabled]
+      - generic "Teclado matemático" [ref=f7e44]:
+        - generic [ref=f7e45]:
+          - tablist "Categorías del teclado matemático" [ref=f7e46]:
+            - tab "Números y operaciones" [ref=f7e47]: "123"
+            - tab "Funciones y cálculo" [selected] [ref=f7e48]: f(x)
+            - tab "Letras y variables" [ref=f7e49]: ABC
+            - tab "Símbolos y relaciones" [ref=f7e50]: Símbolos
+          - tabpanel "Funciones y cálculo" [ref=f7e93]:
+            - 'group "Teclas: functions" [ref=f7e94]':
+              - button "Seno" [ref=f7e95]: sen
+              - button "Coseno" [ref=f7e96]: cos
+              - button "Tangente" [ref=f7e97]: tan
+              - button "Arcoseno" [ref=f7e98]: sen⁻¹
+              - button "Arcocoseno" [ref=f7e99]: cos⁻¹
+              - button "Arcotangente" [ref=f7e100]: tan⁻¹
+              - button "Logaritmo natural" [ref=f7e101]: ln
+              - button "Logaritmo" [ref=f7e102]: log
+              - button "Exponencial" [ref=f7e103]: eˣ
+              - button "Raíz cuadrada" [ref=f7e104]: √
+              - button "Valor absoluto" [ref=f7e105]: "|x|"
+              - 'button "Factorial: el parser actual no lo resuelve" [ref=f7e106]': "!"
+              - button "Seno hiperbólico" [ref=f7e107]: senh
+              - button "Coseno hiperbólico" [ref=f7e108]: cosh
+              - button "Selecciona Derivar; escribe la función en el editor" [ref=f7e109]: d/dx
+              - 'button "Integral indefinida: integrando y diferencial" [ref=f7e110]': ∫
+              - 'button "Integral definida: límites, integrando y diferencial" [ref=f7e111]': ∫ₐᵇ
+              - button "Integral doble iterada" [ref=f7e112]: ∫∫
+              - button "Integral triple iterada" [ref=f7e113]: ∫∫∫
+              - button "Selecciona Límite; indica el punto" [ref=f7e114]: lim
+              - 'button "Sumatoria: el parser actual no la resuelve" [ref=f7e115]': Σ
+              - button "Potencia" [ref=f7e116]: xⁿ
+          - paragraph [ref=f7e117]: Σ y ! se pueden escribir, pero aún no se resuelven.
+          - group "Edición matemática" [ref=f7e83]:
+            - button "Deshacer" [ref=f7e84]: ↶
+            - button "Rehacer" [ref=f7e85]: ↷
+            - button "Mover cursor a la izquierda" [ref=f7e86]: ←
+            - button "Mover cursor a la derecha" [ref=f7e87]: →
+            - button "Siguiente campo matemático" [ref=f7e88]: ⇥
+            - button "Borrar" [ref=f7e89]: ⌫
+            - button "Confirmar expresión" [ref=f7e90]: ↵
+  - button "Open Next.js Dev Tools" [ref=f7e27] [cursor=pointer]
+  - alert [ref=f7e31]

@@ -1,0 +1,46 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - banner [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - heading "MathTutor" [level=1] [ref=f1e6]
+        - paragraph [ref=f1e7]: Calculadora matemática con SymPy
+      - button "Cambiar tema" [ref=f1e8]
+    - main [ref=f1e9]:
+      - generic [ref=f1e10]:
+        - region "Messages" [ref=f1e23]:
+          - log [ref=f1e24]:
+            - generic [ref=f1e25]:
+              - heading "¿Qué quieres resolver?" [level=2] [ref=f1e26]
+              - paragraph [ref=f1e27]: Escribe una expresión, elige la operación y revisa el resultado.
+        - button "Scroll to end"
+    - generic [ref=f1e12]:
+      - generic [ref=f1e13]:
+        - combobox [expanded] [ref=f1e14]:
+          - generic [ref=f1e15]: Simplificar
+          - img [aria-hidden]: ▼
+        - listbox [ref=f1e37]:
+          - option "Simplificar" [active] [selected] [ref=f1e38]
+          - option "Desarrollar" [ref=f1e40]
+          - option "Factorizar" [ref=f1e42]
+          - option "Resolver ecuación" [ref=f1e44]
+          - option "Resolver sistema" [ref=f1e46]
+          - option "Calcular límite" [ref=f1e48]
+          - option "Derivar" [ref=f1e50]
+          - option "Integrar" [ref=f1e52]
+          - option "Integral definida" [ref=f1e54]
+          - option "Graficar función" [ref=f1e56]
+          - option "Volumen de revolución" [ref=f1e58]
+        - textbox [aria-hidden] [ref=f1e16]: simplify
+      - generic [ref=f1e17]:
+        - group [ref=f1e18]:
+          - group [ref=f1e19]: Expresión matemática
+          - generic "Expresión matemática" [ref=f1e29]:
+            - generic [ref=f1e30]:
+              - textbox "Expresión matemática"
+              - generic [ref=f1e31]: Alternar teclado virtual Menu
+              - generic [ref=f1e33]:
+                - status
+          - group [ref=f1e20]:
+            - button "Mostrar teclado matemático" [ref=f1e21]
+        - button "Resolver" [disabled]
+  - alert [ref=f1e22]

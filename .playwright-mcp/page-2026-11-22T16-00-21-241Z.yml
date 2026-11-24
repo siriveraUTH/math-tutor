@@ -1,0 +1,89 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - heading "MathTutor" [level=1] [ref=e6]
+        - paragraph [ref=e7]: Calculadora matemática con SymPy
+      - button "Cambiar tema" [ref=e8]
+    - main [ref=e9]:
+      - generic [ref=e10]:
+        - region "Messages" [ref=e11]:
+          - log [ref=e12]:
+            - generic [ref=e13]:
+              - heading "¿Qué quieres resolver?" [level=2] [ref=e14]
+              - paragraph [ref=e15]: Escribe una expresión, elige la operación y revisa el resultado.
+        - button "Scroll to end"
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - combobox [ref=e19]:
+          - generic [ref=e20]: Simplificar
+          - img [aria-hidden]: ▼
+        - textbox [aria-hidden] [ref=e21]: simplify
+      - generic [ref=e22]:
+        - group [ref=e23]:
+          - group [ref=e24]: Expresión matemática
+          - generic "Expresión matemática" [active] [ref=e29]:
+            - generic [ref=e30]:
+              - 'textbox "Expresión matemática: <mark name=\"xu24l\"/>"'
+              - generic [ref=e31]:
+                - generic [ref=e264]:
+                  - generic [ref=e265]: sin
+                  - generic [ref=e266]:
+                    - text: (
+                    - generic [ref=e267]: sin
+                    - generic [ref=e268]:
+                      - text: (
+                      - generic [ref=e269]: ▢
+                      - text: )
+                    - text: )
+                - generic [ref=e33]:
+                  - text: Alternar teclado virtual
+                  - button [ref=e34] [cursor=pointer]:
+                    - img "Menu" [ref=e35]
+                    - text: Menu
+              - status [ref=e190]: "selected: placeholder"
+          - group [ref=e25]:
+            - button "Ocultar teclado matemático" [pressed] [ref=e38]
+        - button "Resolver" [ref=e93]
+  - alert [ref=e27]
+  - generic [ref=e39]:
+    - text: Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Cut to Clipboard Copiar al portapapeles Paste from Clipboard Variable x Variable y Pi Constante e Infinito Dividir Multiplicar Fracción Potencia Raíz cuadrada tooltip.undo tooltip.redo
+    - generic [ref=e108]:
+      - toolbar [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e111] [cursor=pointer]: 123 Números y operaciones
+          - generic [ref=e112] [cursor=pointer]: f(x) Funciones y cálculo
+          - generic [ref=e113] [cursor=pointer]: ABC Variables permitidas
+          - generic [ref=e114] [cursor=pointer]: Símbolos Símbolos y relaciones
+        - generic [ref=e115]:
+          - generic [ref=e270] [cursor=pointer]: Cut to Clipboard
+          - generic [ref=e273] [cursor=pointer]: Copiar al portapapeles
+          - generic [ref=e276] [cursor=pointer]: Paste from Clipboard
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - generic "Seno" [ref=e127]: sin Seno
+          - generic "Coseno" [ref=e128]: cos Coseno
+          - generic "Tangente" [ref=e129]: tan Tangente
+        - generic [ref=e130]:
+          - generic "Arcoseno" [ref=e131]: sin⁻¹ Arcoseno
+          - generic "Arcocoseno" [ref=e132]: cos⁻¹ Arcocoseno
+          - generic "Arcotangente" [ref=e133]: tan⁻¹ Arcotangente
+        - generic [ref=e134]:
+          - generic "Logaritmo natural" [ref=e135]: ln Logaritmo natural
+          - generic "Logaritmo" [ref=e136]: log Logaritmo
+          - generic "Exponencial" [ref=e137]: eˣ Exponencial
+          - generic "Raíz cuadrada" [ref=e138]: √x Raíz cuadrada
+        - generic [ref=e139]:
+          - generic "Seno hiperbólico" [ref=e140]: sinh Seno hiperbólico
+          - generic "Coseno hiperbólico" [ref=e141]: cosh Coseno hiperbólico
+          - generic "Valor absoluto" [ref=e142]: "|x| Valor absoluto"
+          - generic "Potencia" [ref=e143]: xⁿ Potencia
+        - generic [ref=e144]:
+          - generic "Escribe la función y elige Derivar en el selector" [ref=e145]: d/dx Escribe la función y elige Derivar en el selector
+          - generic "Escribe el integrando y elige Integrar en el selector" [ref=e146]: ∫ dx Escribe el integrando y elige Integrar en el selector
+          - generic "Elige Integral definida y establece Desde/Hasta" [ref=e147]: ∫ₐᵇ Elige Integral definida y establece Desde/Hasta
+          - generic "Escribe la función y completa el punto del límite" [ref=e148]: lim Escribe la función y completa el punto del límite
+        - generic [ref=e149]:
+          - generic "tooltip.undo" [ref=e150]
+          - generic "tooltip.redo"
+    - text: Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Cut to Clipboard Copiar al portapapeles Paste from Clipboard tooltip.undo tooltip.redo Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Cut to Clipboard Copiar al portapapeles Paste from Clipboard Alfa Beta Gamma Theta Lambda Mu Distinto de Menor o igual Mayor o igual Aproximadamente Más o menos Infinito Pertenece a No pertenece a Intersección Unión Tiende a Sumatoria Integral Integral definida Límite tooltip.undo tooltip.redo

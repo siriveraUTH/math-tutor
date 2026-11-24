@@ -1,0 +1,82 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e3]:
+    - banner [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - heading "MathTutor" [level=1] [ref=f4e6]
+        - paragraph [ref=f4e7]: Calculadora matemática con SymPy
+      - button "Cambiar tema" [ref=f4e8]
+    - main [ref=f4e9]:
+      - generic [ref=f4e10]:
+        - region "Messages" [ref=f4e11]:
+          - log [ref=f4e12]:
+            - generic [ref=f4e13]:
+              - heading "¿Qué quieres resolver?" [level=2] [ref=f4e14]
+              - paragraph [ref=f4e15]: Escribe una expresión, elige la operación y revisa el resultado.
+        - button "Scroll to end"
+    - generic [ref=f4e17]:
+      - generic [ref=f4e18]:
+        - combobox [ref=f4e19]:
+          - generic [ref=f4e20]: Simplificar
+          - img [aria-hidden]: ▼
+        - textbox [aria-hidden] [ref=f4e21]: simplify
+      - generic [ref=f4e22]:
+        - group [ref=f4e23]:
+          - group [ref=f4e24]: Expresión matemática
+          - generic "Expresión matemática" [active] [ref=f4e29]:
+            - generic [ref=f4e30]:
+              - 'textbox "Expresión matemática: <mark name=\"wg131k\"/>"'
+              - generic [ref=f4e33]:
+                - text: Alternar teclado virtual
+                - button [ref=f4e34] [cursor=pointer]:
+                  - img "Menu" [ref=f4e35]
+                  - text: Menu
+              - generic [ref=f4e37]:
+                - status
+          - group [ref=f4e25]:
+            - button "Ocultar teclado matemático" [pressed] [ref=f4e38]
+        - button [disabled]
+  - alert [ref=f4e27]
+  - generic [ref=f4e39]:
+    - generic [ref=f4e40]:
+      - toolbar [ref=f4e41]:
+        - generic [ref=f4e42]:
+          - generic [ref=f4e43] [cursor=pointer]: 123 Números y operaciones
+          - generic [ref=f4e44] [cursor=pointer]: f(x) Funciones y cálculo
+          - generic [ref=f4e45] [cursor=pointer]: ABC Variables permitidas
+          - generic [ref=f4e46] [cursor=pointer]: Símbolos Símbolos y relaciones
+        - generic [ref=f4e47]:
+          - generic [ref=f4e48] [cursor=pointer]: Deshacer
+          - generic [ref=f4e51] [cursor=pointer]: Rehacer
+          - generic [ref=f4e54] [cursor=pointer]: Paste from Clipboard
+      - generic [ref=f4e57]:
+        - generic [ref=f4e58]:
+          - generic "Variable x" [ref=f4e59]: x Variable x
+          - generic "Variable y" [ref=f4e60]: y Variable y
+          - generic "Pi" [ref=f4e61]: π Pi
+          - generic "Constante e" [ref=f4e62]: e Constante e
+          - generic "Infinito" [ref=f4e63]: ∞ Infinito
+          - generic "7" [ref=f4e64]
+          - generic "8" [ref=f4e65]
+          - generic "9" [ref=f4e66]
+          - generic "Dividir" [ref=f4e67]: ÷ Dividir
+          - generic "Multiplicar" [ref=f4e68]: × Multiplicar
+        - generic [ref=f4e69]:
+          - generic "4" [ref=f4e70]
+          - generic "5" [ref=f4e71]
+          - generic "6" [ref=f4e72]
+          - generic "&#x2212;" [ref=f4e73]: −
+          - generic "+" [ref=f4e74]
+        - generic [ref=f4e75]:
+          - generic "1" [ref=f4e76]
+          - generic "2" [ref=f4e77]
+          - generic "3" [ref=f4e78]
+          - generic "0" [ref=f4e79]
+          - generic "." [ref=f4e80]
+          - generic "Fracción" [ref=f4e81]: a⁄b Fracción
+        - generic [ref=f4e82]:
+          - generic "Potencia" [ref=f4e83]: xⁿ Potencia
+          - generic "Raíz cuadrada" [ref=f4e84]: √x Raíz cuadrada
+          - generic "(" [ref=f4e85]
+          - generic ")" [ref=f4e86]
+          - generic "=" [ref=f4e87]
+    - text: Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Deshacer Rehacer Paste from Clipboard Seno Coseno Tangente Arcoseno Arcocoseno Arcotangente Logaritmo natural Logaritmo Exponencial Raíz cuadrada Seno hiperbólico Coseno hiperbólico Valor absoluto Potencia Escribe la función y elige Derivar en el selector Escribe el integrando y elige Integrar en el selector Elige Integral definida y establece Desde/Hasta Escribe la función y completa el punto del límite Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Deshacer Rehacer Paste from Clipboard Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Deshacer Rehacer Paste from Clipboard Alfa Beta Gamma Theta Lambda Mu Distinto de Menor o igual Mayor o igual Aproximadamente Más o menos Infinito Pertenece a No pertenece a Intersección Unión Tiende a Sumatoria Integral Integral definida Límite

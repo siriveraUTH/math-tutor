@@ -1,0 +1,86 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e3]:
+    - banner [ref=f8e4]:
+      - generic [ref=f8e5]:
+        - heading "MathTutor" [level=1] [ref=f8e6]
+        - paragraph [ref=f8e7]: Calculadora matemática con SymPy
+      - button "Cambiar tema" [ref=f8e8]
+    - main [ref=f8e9]:
+      - generic [ref=f8e10]:
+        - region "Messages" [ref=f8e31]:
+          - log [ref=f8e32]:
+            - generic [ref=f8e33]:
+              - heading "¿Qué quieres resolver?" [level=2] [ref=f8e34]
+              - paragraph [ref=f8e35]: Escribe una expresión, elige la operación y revisa el resultado.
+        - button "Scroll to end"
+    - generic [ref=f8e12]:
+      - generic [ref=f8e13]:
+        - combobox [ref=f8e14]:
+          - generic [ref=f8e15]: Simplificar
+          - img [aria-hidden]: ▼
+        - textbox [aria-hidden] [ref=f8e16]: simplify
+      - generic [ref=f8e17]:
+        - group [ref=f8e18]:
+          - group [ref=f8e19]: Expresión matemática
+          - generic "Expresión matemática" [ref=f8e37]:
+            - generic [ref=f8e38]:
+              - textbox "Expresión matemática"
+              - generic [ref=f8e41]:
+                - text: Alternar teclado virtual
+                - button [ref=f8e42] [cursor=pointer]:
+                  - img "Menu" [ref=f8e43]
+                  - text: Menu
+              - generic [ref=f8e45]:
+                - status
+          - group [ref=f8e20]:
+            - button "Ocultar teclado matemático" [active] [pressed] [ref=f8e46]
+        - button "Resolver" [disabled]
+      - generic "Teclado matemático" [ref=f8e47]:
+        - generic [ref=f8e48]:
+          - tablist "Categorías del teclado matemático" [ref=f8e49]:
+            - tab "Números y operaciones" [selected] [ref=f8e50]: "123"
+            - tab "Funciones y cálculo" [ref=f8e51]: f(x)
+            - tab "Letras y variables" [ref=f8e52]: ABC
+            - tab "Símbolos y relaciones" [ref=f8e53]: Símbolos
+          - 'group "Teclas: numbers" [ref=f8e55]':
+            - button "x" [ref=f8e56]
+            - button "y" [ref=f8e57]
+            - button "Pi" [ref=f8e58]: π
+            - button "Número de Euler" [ref=f8e59]: e
+            - button "7" [ref=f8e60]
+            - button "8" [ref=f8e61]
+            - button "9" [ref=f8e62]
+            - button "Multiplicar" [ref=f8e63]: ×
+            - button "Elevar al cuadrado" [ref=f8e64]: x²
+            - button "Potencia" [ref=f8e65]: xⁿ
+            - button "Raíz cuadrada" [ref=f8e66]: √
+            - button "Raíz de índice variable" [ref=f8e67]: ⁿ√
+            - button "4" [ref=f8e68]
+            - button "5" [ref=f8e69]
+            - button "6" [ref=f8e70]
+            - button "+" [ref=f8e71]
+            - button "−" [ref=f8e72]
+            - button "Fracción" [ref=f8e73]: a⁄b
+            - button "Abrir paréntesis" [ref=f8e74]: (
+            - button "Cerrar paréntesis" [ref=f8e75]: )
+            - button "Dividir" [ref=f8e76]: ÷
+            - button "1" [ref=f8e77]
+            - button "2" [ref=f8e78]
+            - button "3" [ref=f8e79]
+            - button "=" [ref=f8e80]
+            - button "Mayor que" [ref=f8e81]: ">"
+            - button "0" [ref=f8e82]
+            - button "Punto decimal" [ref=f8e83]: .
+            - button "Menor que" [ref=f8e84]: <
+            - button "Separador" [ref=f8e85]: ","
+          - group "Edición matemática" [ref=f8e86]:
+            - button "Deshacer" [ref=f8e87]: ↶
+            - button "Rehacer" [ref=f8e88]: ↷
+            - button "Mover cursor a la izquierda" [ref=f8e89]: ←
+            - button "Mover cursor a la derecha" [ref=f8e90]: →
+            - button "Siguiente campo matemático" [ref=f8e91]: ⇥
+            - button "Borrar" [ref=f8e92]: ⌫
+            - button "Confirmar expresión" [ref=f8e93]: ↵
+  - button "Open Next.js Dev Tools" [ref=f8e27] [cursor=pointer]
+  - alert [ref=f8e94]
+  - generic: Borrar

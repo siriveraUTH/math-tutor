@@ -1,0 +1,138 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e3]:
+    - banner [ref=f5e4]:
+      - generic [ref=f5e5]:
+        - heading "MathTutor" [level=1] [ref=f5e6]
+        - paragraph [ref=f5e7]: Calculadora matemática con SymPy
+      - button "Cambiar tema" [ref=f5e8]
+    - main [ref=f5e9]:
+      - generic [ref=f5e10]:
+        - region "Messages" [ref=f5e23]:
+          - log [ref=f5e24]:
+            - generic [ref=f5e91]:
+              - generic [ref=f5e96]:
+                - paragraph [ref=f5e97]: Integrar
+                - generic [ref=f5e99]:
+                  - math [ref=f5e101]:
+                    - generic [ref=f5e105]:
+                      - generic [ref=f5e106]:
+                        - generic [ref=f5e107]: a
+                        - generic [ref=f5e108]: "2"
+                      - generic [ref=f5e109]: +
+                      - generic [ref=f5e110]:
+                        - generic [ref=f5e111]: v
+                        - generic [ref=f5e112]: "2"
+                  - generic [ref=f5e119]:
+                    - generic [ref=f5e120]:
+                      - text: a
+                      - generic [ref=f5e121]: "2"
+                    - text: +
+                    - generic [ref=f5e126]:
+                      - text: v
+                      - generic [ref=f5e127]: "2"
+              - generic [ref=f5e142]:
+                - generic [ref=f5e143]:
+                  - paragraph [ref=f5e144]: Resultado
+                  - generic [ref=f5e148]:
+                    - math [ref=f5e150]:
+                      - generic [ref=f5e152]:
+                        - generic [ref=f5e153]: x
+                        - generic [ref=f5e155]:
+                          - generic [ref=f5e156]:
+                            - generic [ref=f5e157]: a
+                            - generic [ref=f5e158]: "2"
+                          - generic [ref=f5e159]: +
+                          - generic [ref=f5e160]:
+                            - generic [ref=f5e161]: v
+                            - generic [ref=f5e162]: "2"
+                    - generic [ref=f5e164]:
+                      - text: x
+                      - generic [ref=f5e169]:
+                        - generic [ref=f5e170]:
+                          - text: a
+                          - generic [ref=f5e171]: "2"
+                        - text: +
+                        - generic [ref=f5e177]:
+                          - text: v
+                          - generic [ref=f5e178]: "2"
+                - generic [ref=f5e190]: Procedimiento parcialmente verificado
+                - generic [ref=f5e191]:
+                  - heading "Procedimiento" [level=3] [ref=f5e192]
+                  - list [ref=f5e193]:
+                    - listitem [ref=f5e194]:
+                      - paragraph [ref=f5e195]: 1. Antiderivada
+                      - generic [ref=f5e196]:
+                        - generic [ref=f5e198]:
+                          - math [ref=f5e200]:
+                            - generic [ref=f5e202]:
+                              - generic [ref=f5e203]: ∫
+                              - generic [ref=f5e205]:
+                                - generic [ref=f5e206]:
+                                  - generic [ref=f5e207]: a
+                                  - generic [ref=f5e208]: "2"
+                                - generic [ref=f5e209]: +
+                                - generic [ref=f5e210]:
+                                  - generic [ref=f5e211]: v
+                                  - generic [ref=f5e212]: "2"
+                              - generic [ref=f5e213]: d
+                              - generic [ref=f5e214]: x
+                          - generic [ref=f5e216]:
+                            - text: ∫
+                            - generic [ref=f5e221]:
+                              - generic [ref=f5e222]:
+                                - text: a
+                                - generic [ref=f5e223]: "2"
+                              - text: +
+                              - generic [ref=f5e229]:
+                                - text: v
+                                - generic [ref=f5e230]: "2"
+                            - text: dx
+                        - generic [ref=f5e242]: →
+                        - generic [ref=f5e244]:
+                          - math [ref=f5e246]:
+                            - generic [ref=f5e248]:
+                              - generic [ref=f5e249]: x
+                              - generic [ref=f5e251]:
+                                - generic [ref=f5e252]:
+                                  - generic [ref=f5e253]: a
+                                  - generic [ref=f5e254]: "2"
+                                - generic [ref=f5e255]: +
+                                - generic [ref=f5e256]:
+                                  - generic [ref=f5e257]: v
+                                  - generic [ref=f5e258]: "2"
+                          - generic [ref=f5e260]:
+                            - text: x
+                            - generic [ref=f5e265]:
+                              - generic [ref=f5e266]:
+                                - text: a
+                                - generic [ref=f5e267]: "2"
+                              - text: +
+                              - generic [ref=f5e273]:
+                                - text: v
+                                - generic [ref=f5e274]: "2"
+                      - paragraph [ref=f5e286]: La derivada del resultado reproduce el integrando; el método detallado no está disponible.
+                      - paragraph [ref=f5e287]: Transformación verificada
+                - paragraph [ref=f5e288]: Se muestra la comprobación de la antiderivada, sin desglose completo del método.
+        - button "Scroll to end"
+    - generic [ref=f5e12]:
+      - generic [ref=f5e13]:
+        - combobox [ref=f5e14]:
+          - generic [ref=f5e15]: Integrar
+          - img [aria-hidden]: ▼
+        - textbox [aria-hidden] [ref=f5e16]: integrate
+        - generic [ref=f5e65]:
+          - text: Variable
+          - textbox "Variable" [ref=f5e66]: x
+      - generic [ref=f5e17]:
+        - group [ref=f5e18]:
+          - group [ref=f5e19]: Expresión matemática
+          - generic "Expresión matemática" [ref=f5e29]:
+            - generic [ref=f5e30]:
+              - textbox "Expresión matemática"
+              - generic [ref=f5e31]: Alternar teclado virtual Menu
+              - generic [ref=f5e33]:
+                - status
+          - group [ref=f5e20]:
+            - button "Mostrar teclado matemático" [ref=f5e21]
+        - button "Resolver" [disabled]
+  - alert [ref=f5e22]

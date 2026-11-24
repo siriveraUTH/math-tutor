@@ -1,0 +1,75 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e3]:
+    - banner [ref=f2e4]:
+      - generic [ref=f2e5]:
+        - heading "MathTutor" [level=1] [ref=f2e6]
+        - paragraph [ref=f2e7]: Calculadora matemática con SymPy
+      - button "Cambiar tema" [ref=f2e8]
+    - main [ref=f2e9]:
+      - generic [ref=f2e10]:
+        - region "Messages" [ref=f2e11]:
+          - log [ref=f2e12]:
+            - generic [ref=f2e13]:
+              - heading "¿Qué quieres resolver?" [level=2] [ref=f2e14]
+              - paragraph [ref=f2e15]: Escribe una expresión, elige la operación y revisa el resultado.
+        - button "Scroll to end"
+    - generic [ref=f2e17]:
+      - generic [ref=f2e18]:
+        - combobox [ref=f2e19]:
+          - generic [ref=f2e20]: Simplificar
+          - img [aria-hidden]: ▼
+        - textbox [aria-hidden] [ref=f2e21]: simplify
+      - generic [ref=f2e22]:
+        - group [ref=f2e23]:
+          - group [ref=f2e24]: Expresión matemática
+          - generic "Expresión matemática" [active] [ref=f2e26]:
+            - generic [ref=f2e27]:
+              - 'textbox "Expresión matemática: <mark name=\"hqa07\"/>"'
+              - generic [ref=f2e30]:
+                - text: Alternar teclado virtual
+                - button [ref=f2e31] [cursor=pointer]:
+                  - img "Menu" [ref=f2e32]
+                  - text: Menu
+              - generic [ref=f2e34]:
+                - status
+          - group [ref=f2e35]:
+            - button "Ocultar teclado matemático" [pressed] [ref=f2e38]
+        - button "Resolver" [disabled]
+  - alert [ref=f2e37]
+  - generic [ref=f2e39]:
+    - text: Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Variable x Variable y Pi Constante e Infinito Dividir Multiplicar Fracción Potencia Raíz cuadrada tooltip.undo tooltip.redo
+    - generic [ref=f2e91]:
+      - toolbar [ref=f2e92]:
+        - generic [ref=f2e93]:
+          - generic [ref=f2e94] [cursor=pointer]: 123 Números y operaciones
+          - generic [ref=f2e95] [cursor=pointer]: f(x) Funciones y cálculo
+          - generic [ref=f2e96] [cursor=pointer]: ABC Variables permitidas
+          - generic [ref=f2e97] [cursor=pointer]: Símbolos Símbolos y relaciones
+      - generic [ref=f2e98]:
+        - generic [ref=f2e99]:
+          - generic "Seno" [ref=f2e100]: sin Seno
+          - generic "Coseno" [ref=f2e101]: cos Coseno
+          - generic "Tangente" [ref=f2e102]: tan Tangente
+        - generic [ref=f2e103]:
+          - generic "Arcoseno" [ref=f2e104]: sin⁻¹ Arcoseno
+          - generic "Arcocoseno" [ref=f2e105]: cos⁻¹ Arcocoseno
+          - generic "Arcotangente" [ref=f2e106]: tan⁻¹ Arcotangente
+        - generic [ref=f2e107]:
+          - generic "Logaritmo natural" [ref=f2e108]: ln Logaritmo natural
+          - generic "Logaritmo" [ref=f2e109]: log Logaritmo
+          - generic "Exponencial" [ref=f2e110]: eˣ Exponencial
+          - generic "Raíz cuadrada" [ref=f2e111]: √x Raíz cuadrada
+        - generic [ref=f2e112]:
+          - generic "Seno hiperbólico" [ref=f2e113]: sinh Seno hiperbólico
+          - generic "Coseno hiperbólico" [ref=f2e114]: cosh Coseno hiperbólico
+          - generic "Valor absoluto" [ref=f2e115]: "|x| Valor absoluto"
+          - generic "Potencia" [ref=f2e116]: xⁿ Potencia
+        - generic [ref=f2e117]:
+          - generic "Escribe la función y elige Derivar en el selector" [ref=f2e118]: d/dx Escribe la función y elige Derivar en el selector
+          - generic "Escribe el integrando y elige Integrar en el selector" [ref=f2e119]: ∫ dx Escribe el integrando y elige Integrar en el selector
+          - generic "Elige Integral definida y establece Desde/Hasta" [ref=f2e120]: ∫ₐᵇ Elige Integral definida y establece Desde/Hasta
+          - generic "Escribe la función y completa el punto del límite" [ref=f2e121]: lim Escribe la función y completa el punto del límite
+        - generic [ref=f2e122]:
+          - generic "tooltip.undo"
+          - generic "tooltip.redo"
+    - text: Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones tooltip.undo tooltip.redo Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Alfa Beta Gamma Theta Lambda Mu Distinto de Menor o igual Mayor o igual Aproximadamente Más o menos Infinito Pertenece a No pertenece a Intersección Unión Tiende a Sumatoria Integral Integral definida Límite tooltip.undo tooltip.redo

@@ -1,0 +1,137 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e3]:
+    - banner [ref=f3e4]:
+      - generic [ref=f3e5]:
+        - heading "MathTutor" [level=1] [ref=f3e6]
+        - paragraph [ref=f3e7]: Calculadora matemática con SymPy
+      - button "Cambiar tema" [ref=f3e8]
+    - main [ref=f3e9]:
+      - generic [ref=f3e10]:
+        - region "Messages" [ref=f3e11]:
+          - log [ref=f3e12]:
+            - generic [ref=f3e117]:
+              - generic [ref=f3e122]:
+                - paragraph [ref=f3e123]: Simplificar
+                - generic [ref=f3e125]:
+                  - math [ref=f3e127]:
+                    - generic [ref=f3e129]:
+                      - generic [ref=f3e130]: x
+                      - generic [ref=f3e131]: +
+                      - generic [ref=f3e132]: "1"
+                  - generic [aria-hidden] [ref=f3e133]:
+                    - generic [ref=f3e134]: x +
+                    - generic [ref=f3e135]: "1"
+              - generic [ref=f3e140]:
+                - generic [ref=f3e141]:
+                  - paragraph [ref=f3e142]: Resultado
+                  - generic [ref=f3e146]:
+                    - math [ref=f3e148]:
+                      - generic [ref=f3e150]:
+                        - generic [ref=f3e151]: x
+                        - generic [ref=f3e152]: +
+                        - generic [ref=f3e153]: "1"
+                    - generic [aria-hidden] [ref=f3e154]:
+                      - generic [ref=f3e155]: x +
+                      - generic [ref=f3e156]: "1"
+                - generic [ref=f3e157]: Procedimiento verificado
+                - generic [ref=f3e158]:
+                  - heading "Procedimiento" [level=3] [ref=f3e159]
+                  - list [ref=f3e160]:
+                    - listitem [ref=f3e161]:
+                      - paragraph [ref=f3e162]: 1. Simplificación algebraica
+                      - generic [ref=f3e163]:
+                        - generic [ref=f3e165]:
+                          - math [ref=f3e167]:
+                            - generic [ref=f3e169]:
+                              - generic [ref=f3e170]: x
+                              - generic [ref=f3e171]: +
+                              - generic [ref=f3e172]: "1"
+                          - generic [aria-hidden] [ref=f3e173]:
+                            - generic [ref=f3e174]: x +
+                            - generic [ref=f3e175]: "1"
+                        - generic [ref=f3e176]: →
+                        - generic [ref=f3e178]:
+                          - math [ref=f3e180]:
+                            - generic [ref=f3e182]:
+                              - generic [ref=f3e183]: x
+                              - generic [ref=f3e184]: +
+                              - generic [ref=f3e185]: "1"
+                          - generic [aria-hidden] [ref=f3e186]:
+                            - generic [ref=f3e187]: x +
+                            - generic [ref=f3e188]: "1"
+                      - paragraph [ref=f3e189]: SymPy transforma la expresión conservando su valor donde ambas expresiones están definidas.
+                      - paragraph [ref=f3e190]: Transformación verificada
+        - button "Scroll to end"
+    - generic [ref=f3e17]:
+      - generic [ref=f3e18]:
+        - combobox [ref=f3e19]:
+          - generic [ref=f3e20]: Simplificar
+          - img [aria-hidden]: ▼
+        - textbox [aria-hidden] [ref=f3e21]: simplify
+      - generic [ref=f3e22]:
+        - group [ref=f3e23]:
+          - group [ref=f3e24]: Expresión matemática
+          - generic "Expresión matemática" [active] [ref=f3e26]:
+            - generic [ref=f3e27]:
+              - 'textbox "Expresión matemática: <mark name=\"i91nru\"/>"'
+              - generic [ref=f3e28]:
+                - generic [ref=f3e287]:
+                  - generic [ref=f3e288]: ▢
+                  - generic [ref=f3e290]: ▢
+                - generic [ref=f3e30]:
+                  - text: Alternar teclado virtual
+                  - button [ref=f3e31] [cursor=pointer]:
+                    - img "Menu" [ref=f3e32]
+                    - text: Menu
+              - status [ref=f3e272]: "selected: placeholder"
+          - group [ref=f3e35]:
+            - button "Ocultar teclado matemático" [pressed] [ref=f3e192]
+        - button "Resolver" [disabled]
+  - alert [ref=f3e37]
+  - generic [ref=f3e193]:
+    - generic [ref=f3e194]:
+      - toolbar [ref=f3e195]:
+        - generic [ref=f3e196]:
+          - generic [ref=f3e197] [cursor=pointer]: 123 Números y operaciones
+          - generic [ref=f3e198] [cursor=pointer]: f(x) Funciones y cálculo
+          - generic [ref=f3e199] [cursor=pointer]: ABC Variables permitidas
+          - generic [ref=f3e200] [cursor=pointer]: Símbolos Símbolos y relaciones
+        - generic [ref=f3e201]:
+          - generic [ref=f3e294] [cursor=pointer]: Deshacer
+          - generic [ref=f3e297] [cursor=pointer]: Rehacer
+          - generic [ref=f3e300] [cursor=pointer]: Paste from Clipboard
+      - generic [ref=f3e211]:
+        - generic [ref=f3e212]:
+          - generic "Variable x" [ref=f3e213]: x Variable x
+          - generic "Variable y" [ref=f3e214]: y Variable y
+          - generic "Pi" [ref=f3e215]: π Pi
+          - generic "Constante e" [ref=f3e216]: e Constante e
+          - generic "Infinito" [ref=f3e217]: ∞ Infinito
+          - generic "7" [ref=f3e218]
+          - generic "8" [ref=f3e219]
+          - generic "9" [ref=f3e220]
+          - generic "Dividir" [ref=f3e221]: ÷ Dividir
+          - generic "Multiplicar" [ref=f3e222]: × Multiplicar
+        - generic [ref=f3e223]:
+          - generic "4" [ref=f3e224]
+          - generic "5" [ref=f3e225]
+          - generic "6" [ref=f3e226]
+          - generic "&#x2212;" [ref=f3e227]: −
+          - generic "+" [ref=f3e228]
+        - generic [ref=f3e229]:
+          - generic "1" [ref=f3e230]
+          - generic "2" [ref=f3e231]
+          - generic "3" [ref=f3e232]
+          - generic "0" [ref=f3e233]
+          - generic "." [ref=f3e234]
+          - generic "Fracción" [ref=f3e235]: a⁄b Fracción
+        - generic [ref=f3e236]:
+          - generic "Potencia" [ref=f3e237]: xⁿ Potencia
+          - generic "Raíz cuadrada" [ref=f3e238]: √x Raíz cuadrada
+          - generic "(" [ref=f3e239]
+          - generic ")" [ref=f3e240]
+          - generic "=" [ref=f3e241]
+        - generic [ref=f3e242]:
+          - generic "tooltip.undo" [ref=f3e243]
+          - generic "tooltip.redo"
+    - text: Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Deshacer Rehacer Paste from Clipboard Seno Coseno Tangente Arcoseno Arcocoseno Arcotangente Logaritmo natural Logaritmo Exponencial Raíz cuadrada Seno hiperbólico Coseno hiperbólico Valor absoluto Potencia Escribe la función y elige Derivar en el selector Escribe el integrando y elige Integrar en el selector Elige Integral definida y establece Desde/Hasta Escribe la función y completa el punto del límite tooltip.undo tooltip.redo Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Deshacer Rehacer Paste from Clipboard tooltip.undo tooltip.redo Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Deshacer Rehacer Paste from Clipboard Alfa Beta Gamma Theta Lambda Mu Distinto de Menor o igual Mayor o igual Aproximadamente Más o menos Infinito Pertenece a No pertenece a Intersección Unión Tiende a Sumatoria Integral Integral definida Límite tooltip.undo tooltip.redo

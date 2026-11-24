@@ -1,0 +1,81 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e3]:
+    - banner [ref=f2e4]:
+      - generic [ref=f2e5]:
+        - heading "MathTutor" [level=1] [ref=f2e6]
+        - paragraph [ref=f2e7]: Calculadora matemática con SymPy
+      - button "Cambiar tema" [ref=f2e8]
+    - main [ref=f2e9]:
+      - generic [ref=f2e10]:
+        - region "Messages" [ref=f2e11]:
+          - log [ref=f2e12]:
+            - generic [ref=f2e13]:
+              - heading "¿Qué quieres resolver?" [level=2] [ref=f2e14]
+              - paragraph [ref=f2e15]: Escribe una expresión, elige la operación y revisa el resultado.
+        - button "Scroll to end"
+    - generic [ref=f2e17]:
+      - generic [ref=f2e18]:
+        - combobox [ref=f2e19]:
+          - generic [ref=f2e20]: Simplificar
+          - img [aria-hidden]: ▼
+        - textbox [aria-hidden] [ref=f2e21]: simplify
+      - generic [ref=f2e22]:
+        - group [ref=f2e23]:
+          - group [ref=f2e24]: Expresión matemática
+          - generic "Expresión matemática" [active] [ref=f2e26]:
+            - generic [ref=f2e27]:
+              - 'textbox "Expresión matemática: <mark name=\"hqa07\"/>"'
+              - generic [ref=f2e30]:
+                - text: Alternar teclado virtual
+                - button [ref=f2e31] [cursor=pointer]:
+                  - img "Menu" [ref=f2e32]
+                  - text: Menu
+              - generic [ref=f2e34]:
+                - status
+          - group [ref=f2e35]:
+            - button "Ocultar teclado matemático" [pressed] [ref=f2e38]
+        - button "Resolver" [disabled]
+  - alert [ref=f2e37]
+  - generic [ref=f2e39]:
+    - generic [ref=f2e40]:
+      - toolbar [ref=f2e41]:
+        - generic [ref=f2e42]:
+          - generic [ref=f2e43] [cursor=pointer]: "123"
+          - generic [ref=f2e44] [cursor=pointer]: f(x)
+          - generic [ref=f2e45] [cursor=pointer]: ABC
+          - generic [ref=f2e46] [cursor=pointer]: Símbolos
+      - generic [ref=f2e47]:
+        - generic [ref=f2e48]:
+          - generic "Variable x" [ref=f2e49]: x
+          - generic "Variable y" [ref=f2e50]: "y"
+          - generic "Pi" [ref=f2e51]: π
+          - generic "Constante e" [ref=f2e52]: e
+          - generic "Infinito" [ref=f2e53]: ∞
+          - generic "7" [ref=f2e54]
+          - generic "8" [ref=f2e55]
+          - generic "9" [ref=f2e56]
+          - generic "Dividir" [ref=f2e57]: ÷
+          - generic "Multiplicar" [ref=f2e58]: ×
+        - generic [ref=f2e59]:
+          - generic "4" [ref=f2e60]
+          - generic "5" [ref=f2e61]
+          - generic "6" [ref=f2e62]
+          - generic "&#x2212;" [ref=f2e63]: −
+          - generic "+" [ref=f2e64]
+        - generic [ref=f2e65]:
+          - generic "1" [ref=f2e66]
+          - generic "2" [ref=f2e67]
+          - generic "3" [ref=f2e68]
+          - generic "0" [ref=f2e69]
+          - generic "." [ref=f2e70]
+          - generic "Fracción" [ref=f2e71]: a⁄b
+        - generic [ref=f2e72]:
+          - generic "Potencia" [ref=f2e73]: xⁿ
+          - generic "Raíz cuadrada" [ref=f2e74]: √x
+          - generic "(" [ref=f2e75]
+          - generic ")" [ref=f2e76]
+          - generic "=" [ref=f2e77]
+        - generic [ref=f2e78]:
+          - generic "tooltip.undo"
+          - generic "tooltip.redo"
+    - text: Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Seno Coseno Tangente Arcoseno Arcocoseno Arcotangente Logaritmo natural Logaritmo Exponencial Raíz cuadrada Seno hiperbólico Coseno hiperbólico Valor absoluto Potencia Escribe la función y elige Derivar en el selector Escribe el integrando y elige Integrar en el selector Elige Integral definida y establece Desde/Hasta Escribe la función y completa el punto del límite tooltip.undo tooltip.redo Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones tooltip.undo tooltip.redo Números y operaciones Funciones y cálculo Variables permitidas Símbolos y relaciones Alfa Beta Gamma Theta Lambda Mu Distinto de Menor o igual Mayor o igual Aproximadamente Más o menos Infinito Pertenece a No pertenece a Intersección Unión Tiende a Sumatoria Integral Integral definida Límite tooltip.undo tooltip.redo

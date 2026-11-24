@@ -1,0 +1,37 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e3]:
+    - banner [ref=f5e4]:
+      - generic [ref=f5e5]:
+        - heading "MathTutor" [level=1] [ref=f5e6]
+        - paragraph [ref=f5e7]: Calculadora matemática con SymPy
+      - button "Cambiar tema" [ref=f5e8]
+    - main [ref=f5e9]:
+      - generic [ref=f5e10]:
+        - region "Messages" [ref=f5e23]:
+          - log [ref=f5e24]:
+            - generic [ref=f5e25]:
+              - heading "¿Qué quieres resolver?" [level=2] [ref=f5e26]
+              - paragraph [ref=f5e27]: Escribe una expresión, elige la operación y revisa el resultado.
+        - button "Scroll to end"
+    - generic [ref=f5e12]:
+      - generic [ref=f5e13]:
+        - combobox [active] [ref=f5e14]:
+          - generic [ref=f5e15]: Integrar
+          - img [aria-hidden]: ▼
+        - textbox [aria-hidden] [ref=f5e16]: integrate
+        - generic [ref=f5e65]:
+          - text: Variable
+          - textbox "Variable" [ref=f5e66]: x
+      - generic [ref=f5e17]:
+        - group [ref=f5e18]:
+          - group [ref=f5e19]: Expresión matemática
+          - generic "Expresión matemática" [ref=f5e29]:
+            - generic [ref=f5e30]:
+              - textbox "Expresión matemática"
+              - generic [ref=f5e31]: Alternar teclado virtual Menu
+              - generic [ref=f5e33]:
+                - status
+          - group [ref=f5e20]:
+            - button "Mostrar teclado matemático" [ref=f5e21]
+        - button "Resolver" [disabled]
+  - alert [ref=f5e22]

@@ -1,0 +1,24 @@
+- generic [active] [ref=f13e1]:
+  - generic [ref=f13e3]:
+    - banner [ref=f13e4]:
+      - generic [ref=f13e5]:
+        - heading "MathTutor" [level=1] [ref=f13e6]
+        - paragraph [ref=f13e7]: Calculadora matemática con SymPy
+      - button "Cambiar tema" [ref=f13e8]
+    - main [ref=f13e9]:
+      - generic [ref=f13e10]:
+        - button "Scroll to end"
+    - generic [ref=f13e12]:
+      - generic [ref=f13e13]:
+        - combobox [ref=f13e14]:
+          - generic [ref=f13e15]: Simplificar
+          - img [aria-hidden]: ▼
+        - textbox [aria-hidden] [ref=f13e16]: simplify
+      - generic [ref=f13e17]:
+        - group [ref=f13e18]:
+          - group [ref=f13e19]: Expresión matemática
+          - group [ref=f13e20]:
+            - button "Mostrar teclado matemático" [ref=f13e21]
+        - button "Resolver" [disabled]
+  - button "Open Next.js Dev Tools" [ref=f13e27] [cursor=pointer]
+  - alert [ref=f13e31]

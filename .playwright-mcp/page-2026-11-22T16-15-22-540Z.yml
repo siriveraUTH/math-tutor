@@ -1,0 +1,87 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e3]:
+    - banner [ref=f3e4]:
+      - generic [ref=f3e5]:
+        - heading "MathTutor" [level=1] [ref=f3e6]
+        - paragraph [ref=f3e7]: Calculadora matemática con SymPy
+      - button "Cambiar tema" [ref=f3e8]
+    - main [ref=f3e9]:
+      - generic [ref=f3e10]:
+        - region "Messages" [ref=f3e11]:
+          - log [ref=f3e12]:
+            - generic [ref=f3e117]:
+              - generic [ref=f3e122]:
+                - paragraph [ref=f3e123]: Simplificar
+                - generic [ref=f3e125]:
+                  - math [ref=f3e127]:
+                    - generic [ref=f3e129]:
+                      - generic [ref=f3e130]: x
+                      - generic [ref=f3e131]: +
+                      - generic [ref=f3e132]: "1"
+                  - generic [aria-hidden] [ref=f3e133]:
+                    - generic [ref=f3e134]: x +
+                    - generic [ref=f3e135]: "1"
+              - generic [ref=f3e140]:
+                - generic [ref=f3e141]:
+                  - paragraph [ref=f3e142]: Resultado
+                  - generic [ref=f3e146]:
+                    - math [ref=f3e148]:
+                      - generic [ref=f3e150]:
+                        - generic [ref=f3e151]: x
+                        - generic [ref=f3e152]: +
+                        - generic [ref=f3e153]: "1"
+                    - generic [aria-hidden] [ref=f3e154]:
+                      - generic [ref=f3e155]: x +
+                      - generic [ref=f3e156]: "1"
+                - generic [ref=f3e157]: Procedimiento verificado
+                - generic [ref=f3e158]:
+                  - heading "Procedimiento" [level=3] [ref=f3e159]
+                  - list [ref=f3e160]:
+                    - listitem [ref=f3e161]:
+                      - paragraph [ref=f3e162]: 1. Simplificación algebraica
+                      - generic [ref=f3e163]:
+                        - generic [ref=f3e165]:
+                          - math [ref=f3e167]:
+                            - generic [ref=f3e169]:
+                              - generic [ref=f3e170]: x
+                              - generic [ref=f3e171]: +
+                              - generic [ref=f3e172]: "1"
+                          - generic [aria-hidden] [ref=f3e173]:
+                            - generic [ref=f3e174]: x +
+                            - generic [ref=f3e175]: "1"
+                        - generic [ref=f3e176]: →
+                        - generic [ref=f3e178]:
+                          - math [ref=f3e180]:
+                            - generic [ref=f3e182]:
+                              - generic [ref=f3e183]: x
+                              - generic [ref=f3e184]: +
+                              - generic [ref=f3e185]: "1"
+                          - generic [aria-hidden] [ref=f3e186]:
+                            - generic [ref=f3e187]: x +
+                            - generic [ref=f3e188]: "1"
+                      - paragraph [ref=f3e189]: SymPy transforma la expresión conservando su valor donde ambas expresiones están definidas.
+                      - paragraph [ref=f3e190]: Transformación verificada
+        - button "Scroll to end"
+    - generic [ref=f3e17]:
+      - generic [ref=f3e18]:
+        - combobox [ref=f3e19]:
+          - generic [ref=f3e20]: Simplificar
+          - img [aria-hidden]: ▼
+        - textbox [aria-hidden] [ref=f3e21]: simplify
+      - generic [ref=f3e22]:
+        - group [ref=f3e23]:
+          - group [ref=f3e24]: Expresión matemática
+          - generic "Expresión matemática" [ref=f3e26]:
+            - generic [ref=f3e27]:
+              - textbox "Expresión matemática"
+              - generic [ref=f3e30]:
+                - text: Alternar teclado virtual
+                - button [ref=f3e31] [cursor=pointer]:
+                  - img "Menu" [ref=f3e32]
+                  - text: Menu
+              - generic [ref=f3e34]:
+                - status
+          - group [ref=f3e35]:
+            - button "Mostrar teclado matemático" [ref=f3e191]
+        - button "Resolver" [disabled]
+  - alert [ref=f3e37]
